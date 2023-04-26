@@ -8,9 +8,12 @@
 # The second text file will be named odd.txt that will contains all odd numbers 
 # extracted from the numbers.txt.
 
-# Open numbers.txt, even.txt, and odd.txt
+def process():
+    # Open numbers.txt, even.txt, and odd.txt
+    with open("numbers.txt","r") as input_text, open("even.txt","w") as output_even, open("odd.txt","w") as output_odd:
 # Read numbers.txt
 # If the integers are even:
 # Write to even.txt
-# If the integers are odd:
-# Write to odd.txt
+# If the integers are odd:               
+# # Write to odd.txt
+     process()
