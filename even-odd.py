@@ -23,4 +23,5 @@ def process():
             else:          
                # Write to odd.txt
                output_odd.write(str(integer) + "\n")
+print("\033[93mTHE ODD AND EVEN INTEGERS ARE SEPERATED ON THEIR RESPECTIVE FILES")
 process()
