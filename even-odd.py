@@ -19,6 +19,8 @@ def process():
             if integer % 2 == 0:
                # Write to even.txt
                output_even.write(str(integer) + "\n")
-# If the integers are odd:               
-# # Write to odd.txt
+            # If the integers are odd:     
+            else:          
+               # Write to odd.txt
+               output_odd.write(str(integer) + "\n")
 process()
