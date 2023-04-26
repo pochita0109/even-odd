@@ -15,8 +15,10 @@ def process():
         numbers = input_text.readlines()
         for line in numbers:
             integer = int(line.strip())
-# If the integers are even:
-# Write to even.txt
+            # If the integers are even:
+            if integer % 2 == 0:
+               # Write to even.txt
+               output_even.write(str(integer) + "\n")
 # If the integers are odd:               
 # # Write to odd.txt
 process()
